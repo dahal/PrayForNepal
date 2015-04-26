@@ -33,7 +33,7 @@ Insta.Tiles.Controller = function(model, view){
 
   this.loadInstaImages = function(hashtag){
     if (typeof hashtag === 'undefined'){
-      hashtag = "goldengate"
+      hashtag = "prayfornepal"
     }
     this.model.fetchInstagram(hashtag)
     $('.tiles').on('didLoadInstagram', function(event, response) {
